@@ -10,5 +10,5 @@ deploy:
   skip_cleanup: true
   provider: heroku
   api_key:
-    secure: 7a36fa91-1c8d-4523-9c16-f86e17e5ef57
+    secure: $HEROKU_TOKEN
     app: "fullstack-bookstore-app"
