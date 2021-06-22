@@ -7,7 +7,10 @@ install:
   - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 
 deploy:
+  skip_cleanup: true
   provider: heroku
   api_key:
     secure: $HEROKU_TOKEN
     app: "fullstack-bookstore-app"
+    on:
+      repo: athar1123/beingFullStack
