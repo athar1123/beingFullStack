@@ -10,7 +10,5 @@ deploy:
   skip_cleanup: true
   provider: heroku
   api_key:
-    secure: $HEROKU_TOKEN
+    secure: 7a36fa91-1c8d-4523-9c16-f86e17e5ef57
     app: "fullstack-bookstore-app"
-    on:
-      repo: athar1123/beingFullStack
